@@ -45,6 +45,7 @@ body{
 	color: #333333;
 	font-size: 14px;
 	background: #fff;
+    opacity: 90%;
 }
 
 
@@ -104,7 +105,7 @@ ul,li{
 ================================================== */
 
 body, p{
-	/*font-family: 'MyriadPro-Regular', serif;*/
+	/*font-family: MyriadPro-Regular, serif;*/
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400; 
 	font-size: 18px;
@@ -199,7 +200,7 @@ h5{
 	padding: 100px 0px;
 }
 p{
-	color: #D35400;
+	color: #336E7B;
 }
 h2.heading-title{
     text-align: center;
@@ -306,55 +307,30 @@ h2.title{
 
 /*section-skills
 ===============================================*/
+
+}
 .icons-up {
     width: 100%;
+    padding-left: 70px;
 }
 .icons-down {
     width: 100%;
+    padding-left: 100px;
 }
                                 /* icons-up */
-.icon-html {
+.icon-up-skills {
     display: inline-block;
-}
-.icon-css3 {
-    display: inline-block;
-}
-.icon-js {
-    display: inline-block;
-}
-.icon-bs {
-    display: inline-block;
-}
-.icon-jq {
-    display: inline-block;
-}
-.icon-ps {
-    display: inline-block;
-}
-.icon-git {
-    display: inline-block;
-}
-                                /* icons-down */
-.icon-angular {
-    display: inline-block;
-    -webkit-filter: grayscale(100%); 
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-bottom: 40px;
     
 }
-.icon-react {
+                                /* icons-down */
+.icon-down-skills {
     display: inline-block;
-    -webkit-filter: grayscale(100%);
-}
-.icon-sass {
-    display: inline-block;
-    -webkit-filter: grayscale(100%);
-}
-.icon-wordpress {
-    display: inline-block;
-    -webkit-filter: grayscale(100%);
-}
-.icon-grunt {
-    display: inline-block;
-    -webkit-filter: grayscale(100%);
+    padding-right: 30px;
+    -webkit-filter: grayscale(100%); 
+    
 }
 
 /*SECTION contact
