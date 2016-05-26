@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Responsive styles
 ================================================== */
 
@@ -120,4 +121,128 @@ width: 100%;
 	}
 
 
+=======
+/* Responsive styles
+================================================== */
+
+/* Large Devices, Wide Screens */
+@media (min-width : 1200px) {
+    .logo {
+        width: 100%;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+@media (min-width : 992px) {
+    .logo {
+        width: 350px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media (min-width : 768px) and (max-width: 991px) {
+	.banner-content {
+	    padding: 65px 0px;
+	}
+	h2. title{
+		font-size: 40px;
+		line-height:40px;
+	}
+	.line-top{
+		width: 600px;
+	}
+	.line-btm{
+		width: 600px;
+	}
+	.navbar-brand img {
+	    margin-right: 4px;
+	}
+    .logo {
+        width: 250px;
+    }
+
+	.navbar-default .navbar-nav > li > a {
+	    padding: 15px 9px;
+    	font-size: 14px;
+	}
+    
+
+}
+
+/* Small Devices Potrait */
+@media (max-width : 767px){
+    #section-banner {
+        border-right: 5110px;
+    }
+    .banner-content {
+        padding: 0px;
+        
+    }
+    #section-footer {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    h4 {
+        font-size: 70%;
+    }
+    .section-padding {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #section-profile {
+        margin-top: 50px;
+    }
+    .heading-title {
+        font-size: 110%;
+    }
+    #img-small {
+        width: 60px;
+    }
+    p {
+        font-size: 80%;
+    }
+
+    .btn-default {
+        width: 100%;
+    }
+    .logo {
+        width: 250px;
+        margin-top: 1px;
+    }
+	
+}
+
+/* Extra Small Devices, Phones */ 
+@media (max-width : 479px) {
+    .btn-default {
+width: 100%;
+
+}
+    .logo {
+        margin-top: 12px;
+        width: 140px;
+    }
+    
+}
+/* Custom, iPhone Retina */ 
+@media (min-width : 320px) and (max-width: 478px)  {
+	.navbar-default .navbar-nav > li > a {
+    	padding: 15px 20px;
+	}
+
+	.navbar-brand {
+	    padding-top: 4px;
+	}
+
+
+	.profile-desc {
+   	 padding-left: 10px;
+	}
+	.skill-desc{
+		margin-bottom: 40px;
+	}
+
+
+>>>>>>> origin/master
 }
