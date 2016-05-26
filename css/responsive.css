@@ -48,11 +48,11 @@
 
 /* Small Devices Potrait */
 @media (max-width : 767px){
-     {
-    font-size: 20px;
+    #section-banner {
+        border-right: 5110px;
     }
     .banner-content {
-        padding: 10px;
+        padding: 0px;
         
     }
     #section-footer {
@@ -73,7 +73,7 @@
         font-size: 110%;
     }
     #img-small {
-        width: 90px;
+        width: 60px;
     }
     p {
         font-size: 80%;
@@ -91,7 +91,6 @@
 
 /* Extra Small Devices, Phones */ 
 @media (max-width : 479px) {
-    
     .btn-default {
 width: 100%;
 
@@ -108,10 +107,6 @@ width: 100%;
     	padding: 15px 20px;
 	}
 
-	.banner-content {
-	    padding: 55px 0px;
-	}
-
 	.navbar-brand {
 	    padding-top: 4px;
 	}
@@ -122,10 +117,6 @@ width: 100%;
 	}
 	.skill-desc{
 		margin-bottom: 40px;
-	}
-
-	.image-overlay a i {
-	    margin-top: 110px;
 	}
 
 

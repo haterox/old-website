@@ -17,14 +17,6 @@
 	font-style: normal;
 }
 
-@font-face {
-	font-family: 'MyriadPro-Regular';
-	src: url('fonts/MyriadPro-Regular.eot?') format('eot'), 
-	     url('fonts/MyriadPro-Regular.otf')  format('opentype'),
-	     url('fonts/MyriadPro-Regular.woff') format('woff'), 
-	     url('fonts/MyriadPro-Regular.ttf')  format('truetype'),
-	     url('fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
-}
 
 /* Global styles
 ================================================== */
@@ -59,6 +51,7 @@ a:hover{
 	text-decoration: none;
 	color: #F1C40F;
 	cursor: pointer;
+    animated: bounce;
 }
 
 
@@ -309,28 +302,26 @@ h2.title{
 ===============================================*/
 
 }
-.icons-up {
+.icons-up-left {
     width: 100%;
-    padding-left: 70px;
+    
 }
-.icons-down {
+.icons-up-right {
     width: 100%;
-    padding-left: 100px;
+    
 }
                                 /* icons-up */
 .icon-up-skills {
     display: inline-block;
-    padding-right: 20px;
-    padding-top: 20px;
-    margin-bottom: 40px;
-    
+    padding-right: 10px;
+    padding-top: 20px; 
+    margin-left: 20px;
 }
                                 /* icons-down */
-.icon-down-skills {
+.icon-right-skills {
     display: inline-block;
-    padding-right: 30px;
-    -webkit-filter: grayscale(100%); 
-    
+    padding-top: 20px;
+    -webkit-filter: grayscale(100%);
 }
 
 /*SECTION contact
