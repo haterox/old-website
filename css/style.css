@@ -17,14 +17,6 @@
 	font-style: normal;
 }
 
-@font-face {
-	font-family: 'MyriadPro-Regular';
-	src: url('fonts/MyriadPro-Regular.eot?') format('eot'), 
-	     url('fonts/MyriadPro-Regular.otf')  format('opentype'),
-	     url('fonts/MyriadPro-Regular.woff') format('woff'), 
-	     url('fonts/MyriadPro-Regular.ttf')  format('truetype'),
-	     url('fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
-}
 
 /* Global styles
 ================================================== */
@@ -45,6 +37,7 @@ body{
 	color: #333333;
 	font-size: 14px;
 	background: #fff;
+    opacity: 90%;
 }
 
 
@@ -58,6 +51,7 @@ a:hover{
 	text-decoration: none;
 	color: #F1C40F;
 	cursor: pointer;
+    animated: bounce;
 }
 
 
@@ -104,7 +98,7 @@ ul,li{
 ================================================== */
 
 body, p{
-	/*font-family: 'MyriadPro-Regular', serif;*/
+	/*font-family: MyriadPro-Regular, serif;*/
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400; 
 	font-size: 18px;
@@ -199,7 +193,7 @@ h5{
 	padding: 100px 0px;
 }
 p{
-	color: #D35400;
+	color: #336E7B;
 }
 h2.heading-title{
     text-align: center;
@@ -302,58 +296,32 @@ h2.title{
 .profile-desc{
 	margin-bottom: 70px;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 /*section-skills
 ===============================================*/
-.icons-up {
+
+}
+.icons-up-left {
     width: 100%;
-}
-.icons-down {
-    width: 100%;
-}
-                                /* icons-up */
-.icon-html {
-    display: inline-block;
-}
-.icon-css3 {
-    display: inline-block;
-}
-.icon-js {
-    display: inline-block;
-}
-.icon-bs {
-    display: inline-block;
-}
-.icon-jq {
-    display: inline-block;
-}
-.icon-ps {
-    display: inline-block;
-}
-.icon-git {
-    display: inline-block;
-}
-                                /* icons-down */
-.icon-angular {
-    display: inline-block;
-    -webkit-filter: grayscale(100%); 
     
 }
-.icon-react {
-    display: inline-block;
-    -webkit-filter: grayscale(100%);
+.icons-up-right {
+    width: 100%;
+    
 }
-.icon-sass {
+                                /* icons-up */
+.icon-up-skills {
     display: inline-block;
-    -webkit-filter: grayscale(100%);
+    padding-right: 10px;
+    padding-top: 20px; 
+    margin-left: 20px;
 }
-.icon-wordpress {
+                                /* icons-down */
+.icon-right-skills {
     display: inline-block;
-    -webkit-filter: grayscale(100%);
-}
-.icon-grunt {
-    display: inline-block;
+    padding-top: 20px;
     -webkit-filter: grayscale(100%);
 }
 
