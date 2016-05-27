@@ -250,6 +250,8 @@ h2.title{
 	z-index: 9999;
 }
 .navbar-default{
+    padding-top: 10px;
+    padding-bottom: 10px;
 	background: #252e30;
 	border: 0px;
 	border-radius: 0px;
@@ -321,6 +323,7 @@ h2.title{
 .icon-right-skills {
     display: inline-block;
     padding-top: 20px;
+    padding-right: 14px;
     -webkit-filter: grayscale(100%);
 }
 
@@ -336,6 +339,7 @@ h2.title{
 .contact-left{
 	padding-top: 30px;
     color: #fff;
+    text-align: center;
 }
 .contact-text {
     font-size: 18px;
