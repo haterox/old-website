@@ -361,8 +361,8 @@ h2.title{
 		margin-bottom: 30px;
 	}
 
-.socail-link{}
-.socail-link a i{
+.social-link{}
+.social-link a i{
 	background: #4b5456;
 	width: 35px;
 	height: 35px;
@@ -371,6 +371,6 @@ h2.title{
 	font-size: 20px;
 	line-height: 35px;
 }
-.socail-link a:hover i{
+.social-link a:hover i{
 	color: #fff;
 }
