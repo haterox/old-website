@@ -164,12 +164,13 @@ width: 100%;
 	.navbar-default .navbar-nav > li > a {
 	    padding: 15px 9px;
     	font-size: 14px;
-	}
-
+    }
 }
 
 /* Small Devices Potrait */
 @media (max-width : 767px){
+
+    
     #section-banner {
         border-right: 5110px;
     }
@@ -214,13 +215,14 @@ width: 100%;
 /* Extra Small Devices, Phones */ 
 @media (max-width : 479px) {
     .btn-default {
-width: 100%;
+        width: 100%;
 
-}
+    }
     .logo {
         margin-top: 12px;
         width: 140px;
     }
+
     
 }
 /* Custom, iPhone Retina */ 
@@ -235,7 +237,7 @@ width: 100%;
 
 
 	.profile-desc {
-   	 padding-left: 10px;
+   	    padding-left: 10px;
 	}
 	.skill-desc{
 		margin-bottom: 40px;

@@ -299,23 +299,24 @@ h2.title{
 }
 .icons-up-left {
     width: 100%;
-    
+    padding-right: 10px;
 }
 .icons-up-right {
     width: 100%; 
+    padding-left: 20px;
 }
                                 /* icons-up */
 .icon-up-skills {
     display: inline-block;
+    padding-top: 20px;
     padding-right: 10px;
-    padding-top: 20px; 
-    margin-left: 20px;
 }
                                 /* icons-down */
 .icon-right-skills {
     display: inline-block;
     padding-top: 20px;
     -webkit-filter: grayscale(100%);
+    padding-right: 10px;
 }
 
 /*SECTION contact
