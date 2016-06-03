@@ -300,10 +300,12 @@ h2.title{
 .icons-up-left {
     width: 100%;
     padding-right: 10px;
+    text-align: center;
 }
 .icons-up-right {
     width: 100%; 
     padding-left: 20px;
+    text-align: center;
 }
                                 /* icons-up */
 .icon-up-skills {
