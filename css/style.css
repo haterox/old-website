@@ -318,7 +318,7 @@ h2.title{
     display: inline-block;
     padding-top: 20px;
     -webkit-filter: grayscale(100%);
-    padding-right: 15px;
+    padding: 8px;
 }
 
 /*SECTION contact
