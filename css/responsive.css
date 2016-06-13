@@ -48,9 +48,6 @@
 
 /* Small Devices Potrait */
 @media (max-width : 767px){
-    #section-banner {
-        border-right: 5110px;
-    }
     .banner-content {
         padding: 0px;
         
