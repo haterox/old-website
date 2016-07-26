@@ -319,6 +319,13 @@ h2.title {
 .profile-desc {
     padding-left: 10px;
     padding-right: 10px;
+    float: right;
+}
+
+.cv-photo {
+    float: left;
+    margin-right: 100px;
+    max-width: 185px;
 }
 
 
