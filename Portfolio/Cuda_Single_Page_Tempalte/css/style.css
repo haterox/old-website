@@ -1,0 +1,635 @@
+/** GLOBAL STYLES **/
+
+html {
+    width: 100%;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    position: relative;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.section-padding {
+    padding: 100px 0px;
+}
+
+section {
+    position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+
+/** NAVBAR **/
+
+.navbar {
+    width: 100%;
+    background-color: #87509c !important;
+    margin: 0 auto !important;
+    border: none !important;
+    padding: 30px;
+}
+
+.navbar-default {
+    border-radius: 0px !important;
+}
+
+.navbar-default .navbar-nav li a {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+    font-weight: 600px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    color: white !important;
+    border-radius: 5px;
+}
+
+.navbar-default .navbar-nav li a:hover {
+    background-color: #643a79 !important;
+}
+
+.navbar-default .navbar-nav li {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-brand {
+    padding: 0px !important;
+}
+
+.navbar-toggle {
+    background-color: white!important;
+}
+
+
+/** SECTION HOME **/
+
+#section-home {
+    background-color: #87509c;
+}
+
+.home-section-text h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+    color: white;
+}
+
+.head-button {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    width: 320px;
+    height: 80px;
+    background-color: #eb7d4b;
+    color: white;
+    border-radius: 10px;
+    border-bottom: 5px inset #c86a40 !important;
+    border: 0px;
+    margin: 80px auto;
+}
+
+
+/** SECTION SERVICES **/
+
+#section-services {
+    background-color: #17c2a4;
+}
+
+.services-head-text h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 4px;
+}
+
+.services-head-text h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 28px;
+    color: white;
+    padding: 0 3px;
+}
+
+.hr-services {
+    width: 100px;
+    border: 0;
+    height: 0;
+    box-shadow: 0 0 4px 2px #14a58c;
+}
+
+
+/***** ICONS *****/
+
+
+/** FLAG **/
+
+.container-flag h4 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+    margin-top: 60px;
+}
+
+.container-flag h5 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    margin-top: 20px;
+}
+
+.icon-flag {
+    margin: 0 auto;
+}
+
+
+/** PENCIL **/
+
+.container-pencil h4 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+    margin-top: 54px;
+}
+
+.container-pencil h5 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    margin-top: 20px;
+}
+
+.icon-pencil {
+    margin: 0 auto;
+}
+
+
+/** GEARS **/
+
+.container-gears h4 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+    margin-top: 58px;
+}
+
+.container-gears h5 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    margin-top: 20px;
+}
+
+.icon-gears {
+    margin: 0 auto;
+}
+
+
+/** ROCKET **/
+
+.container-rocket h4 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    color: white;
+    margin-top: 50px;
+}
+
+.container-rocket h5 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+    margin-top: 20px;
+}
+
+.icon-rocket {
+    margin: 0 auto;
+}
+
+
+/** SECTION TEAM **/
+
+#section-team {
+    background-color: #e7f1f8;
+}
+
+
+/** FAVICONS **/
+
+.social-icons a i {
+    background: #bdd1df;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    color: white;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.hr-team {
+    width: 100px;
+    border: 0;
+    height: 0;
+    box-shadow: 0 0 4px 2px #c8d9e5;
+}
+
+.team-head-text h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    color: #3c4761;
+    letter-spacing: 4px;
+}
+
+.team-head-text h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 0 5px;
+}
+
+.team-img {
+    margin: 50px auto;
+}
+
+.team h3 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #27283d;
+}
+
+.team h4 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    color: #48c1e9;
+}
+
+.team h5 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    color: #535e75;
+    line-height: 25px;
+    margin-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+/** SECTION SKILLS **/
+
+#section-skills {
+    background-color: white;
+}
+
+.skills-head-text h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    color: #3c4761;
+    letter-spacing: 4px;
+}
+
+.hr-skills {
+    width: 100px;
+    border: 0;
+    height: 0;
+    box-shadow: 0 0 4px 2px #c8d9e5;
+}
+
+.skills-head-text h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+
+/** PROGRESS BAR STYLES **/
+
+.container-progress {
+    margin-top: 50px;
+}
+
+.container-progress h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+
+/** SECTION PORTFOLIO **/
+
+#section-portfolio {
+    background-color: #ffdd99;
+}
+
+.portfolio-head-text h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    color: #393939;
+    letter-spacing: 4px;
+}
+
+.hr-portfolio {
+    width: 100px;
+    border: 0;
+    height: 0;
+    box-shadow: 0 0 2px 2px #e5c37f;
+}
+
+.portfolio-head-text h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.filter-text {
+    margin-bottom: 50px;
+}
+
+.filter-text h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+
+/** filter **/
+
+.filtr-item {
+    padding: 1rem;
+}
+
+
+/* Filter controls */
+
+.simplefilter {
+    padding: 0px !important;
+}
+
+.simplefilter li {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #393939;
+    cursor: pointer;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.simplefilter li {
+    background-color: #ebc985;
+}
+
+.simplefilter li.active {
+    background-color: white;
+}
+
+.button-portfolio {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    width: 320px;
+    height: 80px;
+    background-color: #17c2a4;
+    color: white;
+    border-radius: 10px;
+    border-bottom: 5px inset #14a58c !important;
+    border: 0px;
+    margin: 70px auto;
+}
+
+
+/** SECTION REVIEWS **/
+
+#section-reviews {
+    background-color: #d74680;
+}
+
+.reviews-head-text h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 4px;
+}
+
+.hr-reviews {
+    width: 100px;
+    border: 0;
+    height: 0;
+    box-shadow: 0 0 2px 2px #b73c6d;
+}
+
+.reviews-head-text h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+
+.container-reviews {
+    margin-top: 80px;
+}
+
+.float-left {
+    float: left;
+    padding: 0px 30px 40px 0px;
+}
+
+.row-margin {
+    margin: 30px 0px 50px 0px;
+}
+
+.reviews-text-italic {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+    line-height: 30px;
+    color: white;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+.reviews h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    margin-left: 125px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    text-align: left;
+}
+
+.reviews h5 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #facd96;
+    margin-left: 125px;
+    margin-right: 10px;
+    text-align: left;
+    margin-top: 0px;
+}
+
+
+/** SECTION CONTACT **/
+
+#section-contact {
+    background-color: #3c5499;
+}
+
+.contact-head-text h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 4px;
+}
+
+.hr-contact {
+    width: 100px;
+    border: 0;
+    height: 0;
+    box-shadow: 0 0 2px 2px #273a71;
+}
+
+.contact-head-text h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    padding: 0 3px;
+}
+
+.form-inline .form-group-lg input {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #273a71;
+    color: white;
+    width: 100%;
+    border: 0px;
+    padding-left: 25px !important;
+}
+
+form .form-group-lg textarea {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #273a71;
+    color: white;
+    width: 100%;
+    border: 0px;
+    padding: 25px !important;
+}
+
+.button-contact {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    width: 320px;
+    height: 80px;
+    background-color: #30bae7;
+    color: white;
+    border-radius: 10px;
+    border-bottom: 5px inset #299ec5 !important;
+    border: 0px;
+    margin: 70px auto;
+}
+
+
+/** INPUT / TEXT AREA PLACEHOLDER STYLE **/
+
+input[required] + label:after {
+    content: '*';
+    color: red;
+}
+
+input::-webkit-input-placeholder {
+    color: white !important;
+}
+
+input:-moz-placeholder {
+    /* Firefox 18- */
+    color: white !important;
+}
+
+input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white !important;
+}
+
+input:-ms-input-placeholder {
+    color: white !important;
+}
+
+textarea::-webkit-input-placeholder {
+    color: white!important;
+}
+
+textarea:-moz-placeholder {
+    /* Firefox 18- */
+    color: white !important;
+}
+
+textarea::-moz-placeholder {
+    /* Firefox 19+ */
+    color: white !important;
+}
+
+textarea:-ms-input-placeholder {
+    color: white !important;
+}
+
+textarea::-webkit-resizer {
+    background-image: url(/img/arrow-contact.png);
+    background-repeat: no-repeat;
+}
+
+
+/** SECTION FOOTER **/
+
+footer {
+    background-color: #344b8e;
+    padding: 30px;
+}
+
+.footer-social-links li {
+    margin: 0 auto;
+}
+
+.footer-social-links li a:hover {
+    color: #30bae7 !important;
+}
+
+.footer-social-links li a {
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 5px 30px 5px 30px;
+    text-decoration: none;
+}
