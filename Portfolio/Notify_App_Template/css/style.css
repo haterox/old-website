@@ -1,0 +1,173 @@
+/* GLOBAL STYLES */
+html {
+  width: 100%;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  position: relative; }
+
+body {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  padding: 0;
+  margin: 0; }
+
+.padding {
+  padding: 150px 10px; }
+
+.padding-small {
+  padding: 50px 0px; }
+
+section {
+  position: relative; }
+
+/* SECTION HEADER */
+.section-header {
+  width: 100%;
+  height: auto;
+  background: url("../img/background-header.png") top no-repeat;
+  border-top: 15px #2ecc71 solid; }
+
+.title {
+  font: 80px "Pacifico", cursive;
+  color: white; }
+
+.title::after {
+  content: ".";
+  color: #2ecc71; }
+
+.header-text {
+  font: 500 24px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  line-height: 35px;
+  padding-top: 20px; }
+
+/* ICONS */
+.header-icons .fa {
+  margin-top: 10px;
+  padding: 16px 18px;
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  color: white;
+  opacity: 0.5;
+  background: black; }
+
+.header-icons .fa:hover {
+  color: white;
+  opacity: 1;
+  background: #2ecc71; }
+
+/* SECTION FEATURES */
+.section-features {
+  width: 100%;
+  height: auto; }
+
+.features h3 {
+  font: "Raleway", sans-serif; }
+.features p {
+  font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 25px;
+  margin-top: 15px;
+  opacity: 0.7; }
+.features img {
+  margin: 0 auto; }
+
+/* SECTION GET-NOTIFIED */
+.section-get-notified {
+  width: 100%;
+  height: auto;
+  background-color: #e3e3e3; }
+  .section-get-notified h3 {
+    font: 600 22px "Raleway", sans-serif; }
+  .section-get-notified h4 {
+    font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 30px;
+    margin-top: 20px;
+    color: #848484;
+    text-align: left; }
+
+.input-group {
+  display: block !important; }
+
+.input-group-lg .form-control {
+  height: 60px !important;
+  width: 55% !important;
+  border-top-left-radius: 16px !important;
+  border-bottom-left-radius: 16px !important;
+  border-right: transparent;
+  padding-left: 20px !important;
+  font: 18px "Helvetica Neue", Helvetica, Arial, sans-serif !important; }
+
+.input-group-btn .btn {
+  height: 60px !important;
+  width: 55%;
+  font: bold 22px "Raleway", sans-serif !important;
+  color: white;
+  background-color: #2ecc71;
+  border-top-right-radius: 16px !important;
+  border-bottom-right-radius: 16px !important;
+  padding: 0 !important; }
+  .input-group-btn .btn:hover {
+    background-color: #2ecc71;
+    color: white; }
+
+.embed-responsive {
+  margin-top: 10px; }
+
+iframe {
+  border-radius: 10px !important; }
+
+/* SECTION REVIEWS */
+.section-reviews .text-italic {
+  font: italic 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #848484;
+  line-height: 30px;
+  opacity: 0.8; }
+.section-reviews h5 {
+  font: 900 18px "Raleway", sans-serif;
+  margin-top: 20px; }
+.section-reviews .list-inline {
+  margin-top: 20px; }
+.section-reviews h4 {
+  font: 900 26px "Raleway", sans-serif;
+  margin-top: 50px; }
+.section-reviews p {
+  font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  opacity: 0.7;
+  margin-top: 20px; }
+.section-reviews .icons-testi .fa {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 100px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  color: white;
+  opacity: 0.2;
+  background: black; }
+  .section-reviews .icons-testi .fa:hover {
+    color: white;
+    opacity: 1;
+    background: #2ecc71; }
+
+/* FOOTER */
+footer {
+  width: 100%;
+  height: 120px;
+  background-color: #e3e3e3; }
+  footer a {
+    line-height: 100px;
+    margin: 10px;
+    padding: 10px;
+    font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    opacity: 0.8;
+    color: #848484;
+    text-decoration: none; }
+    footer a:hover {
+      text-decoration: none;
+      background-color: #848484;
+      color: white;
+      border-radius: 10px; }
+
+/*# sourceMappingURL=style.css.map */
